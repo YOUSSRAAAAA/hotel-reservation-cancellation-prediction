@@ -1,12 +1,18 @@
-🌟 **Hotel Reservation Cancellation Analysis and Prediction** 🌟
+# 🌟 **Hotel Reservation Cancellation Analysis and Prediction** 🌟
+
 This project focuses on predicting hotel reservation cancellations using **machine learning** techniques. The objective is to assist hotel managers in optimizing revenue, minimizing booking uncertainties, and enhancing customer satisfaction.
 
-📋 **Overview**
+
+
+## 📋 **Overview**
+
 This project utilizes a rich dataset containing **119,390 samples** and **32 variables**, such as booking status, lead time, arrival date, and customer demographics. The project workflow involves **data exploration**, **preprocessing**, and the application of advanced **machine learning models** to achieve high prediction accuracy.
 
 
-🚀 **Features**
-🔍 Exploratory Data Analysis (EDA)**  
+
+## 🚀 **Features**
+
+### 🔍 **Exploratory Data Analysis (EDA)**  
 - **Univariate Analysis**: Distribution of key variables like `lead time` and `ADR`.  
 - **Bivariate Analysis**: Relationship analysis between booking status (`is_canceled`) and other features like `market_segment`.  
 - **Geographical Visualization**: Insights into the origins of customers.  
@@ -25,7 +31,7 @@ Implemented and evaluated the following models:
 - **CatBoost**  
 - **LightGBM**
 
----
+
 
 ## 📂 **Dataset**
 
@@ -39,7 +45,7 @@ Implemented and evaluated the following models:
   - `lead_time`: Days between booking and check-in.  
   - `adr`: Average daily rate.  
 
----
+
 
 ## ⚙️ **Methodology**
 
@@ -53,7 +59,7 @@ Implemented and evaluated the following models:
 4. **📈 Model Training**:  
    - Compared models using metrics like **Accuracy**, **Precision**, **Recall**, **F1-Score**, and **AUC**.  
 
----
+
 
 ## 🏆 **Results**
 
@@ -66,24 +72,6 @@ Implemented and evaluated the following models:
   - Seasonal trends and customer demographics strongly influence cancellations.  
   - Advanced boosting models outperformed simpler algorithms.
 
----
-
-## 💻 **Installation**
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your_username/hotel-reservation-cancellation-prediction.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd hotel-reservation-cancellation-prediction
-   ```
-3. Install required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
----
 
 ## 🔧 **Usage**
 
@@ -91,7 +79,7 @@ Implemented and evaluated the following models:
 2. Train and evaluate models using Python scripts.  
 3. Visualize results with built-in plots and metrics.  
 
----
+
 
 ## 🌟 **Future Work**
 
@@ -100,13 +88,13 @@ Implemented and evaluated the following models:
 - **Temporal Analysis**: Capture seasonal trends more effectively.  
 - **Customer Segmentation**: Refine clustering for tailored strategies.  
 
----
+
 
 ## ✍️ **Contributors**
 
-- **Yousra Wakrim** ([Contact via Email](mailto:Youssra.wakrim@etu.uae.ac.ma))  
+- **Yousra Wakrim**   
 
----
+
 
 ## 📜 **License**
 
